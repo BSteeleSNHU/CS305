@@ -1,1 +1,20 @@
-# CS305
+Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
+  - Artemis Financial is, in rather obvious terms, a financial institution. This means that Artemis Financial handles financial data for customers. This type of data is very sensitive and valuable in nature, which makes it very desirable for a bad actor to gain access to. This company needs to place a high value of the security of their communications and data transfer, to protect this information. Governmental standards must also be employed for the handling of this data, and the application must comply with federal laws and best practices. The API needs to be secure, with proper authorization in place to ensure that the information is being used in a secure way. The API must be conducted through HTTPS, to maintain secure, encrypted connections between the requester and responder.
+
+What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
+  - I felt like I performed very well in securing the codebase and making sure that the data and information was abstracted away and not able to be taken in a plain text format. It is important to code securely, so that the application can not be easily breached and customer data can not be extracted from the application. Software security is a vital part of a company's wellbeing and overall iamge, if they want to be trusted by consumers and want to stay within regulations. 
+  
+What part of the vulnerability assessment was challenging or helpful to you?
+  - The most challenging part of the vulnerability assessment was categorizing these vulnerabilities and figuring out what were considered false positives. I obviously do not want to consider something a false positive if it should really be fixed, so this was imperative that I got everything correct. 
+  
+How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+  - To increase the layers of security, I checked for present vulnerabilities in the codebase and application. Once I did this, I made sure to mitigate these vulnerabilities and to make sure that I had abstraction present in the code for vital information that was previously hardcoded. I would make sure to use the same techniques in the future as they were very valuable in detecting issues within the application.
+  
+How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+  - To make sure that the code and software applications were functional and secure, I took a look at the vulnerabilities present in the code and worked to negate these. Getting rid of the vulnerabilities gives a much more secure application. Running the dependency check report allowed me to see all of the different kinds of vulnerabilities and to ensure that I was not introducing more into the application.
+  
+What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+  - Some of the things that I used in this course that will definitely be helpful in future assignments and tasks would be Maven and keytool. Being able to generate self-signed certificates is a valuable skill that I did not know previously, and being able to do a dependency check on my applications to look for vulnerabilities is a very valuable skill.
+  
+Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+  - For this assignment, I could show future employers the vulnerability assessment report, along with the secure code that I have written. These items showcase the skills that I have developed in this course, and give an overview of the things I have accomplished throughout the course.
